@@ -1,0 +1,103 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\User\AppData\Local\Temp\idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\User\AppData\Local\Temp\idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.0 (Oracle Corporation Java 1.8.0_261)
+[debug]       Load.loadUnit: plugins took 312.338958ms
+[debug]       Load.loadUnit: defsScala took 0.391921ms
+[debug] [Loading] Scanning directory C:\Users\User\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\User\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 23.73333 ms
+[debug]           Load.resolveProject(global-plugins) took 64.858058ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\User\.sbt\1.0\plugins, plugins: List(<none>))) took 128.929711ms
+[debug] [Loading] Done in C:\Users\User\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 155.224636ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.311741ms
+[debug]     Load.loadUnit(file:/C:/Users/User/.sbt/1.0/plugins/, ...) took 476.42222ms
+[debug]   Load.apply: load took 814.360781ms
+[debug]   Load.apply: resolveProjects took 7.486903ms
+[debug]   Load.apply: finalTransforms took 95.740573ms
+[debug]   Load.apply: config.delegates took 10.079289ms
+[debug]   Load.apply: Def.make(settings)... took 6018.787816ms
+[debug]   Load.apply: structureIndex took 202.628755ms
+[debug]   Load.apply: mkStreams took 1.994562ms
+[info] loading global plugins from C:\Users\User\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 18961.246038ms
+[debug]           Load.loadUnit: plugins took 27.565942ms
+[debug]           Load.loadUnit: defsScala took 0.002887ms
+[debug] [Loading] Scanning directory D:\PYTHON\Magistracy\1 семестр\Лабы по BD\Лаба 1 БД 1 семестр\spark-lab-1_stations_trips\project
+[debug]             Load.loadUnit: mkEval took 9.637014ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\PYTHON\Magistracy\1 семестр\Лабы по BD\Лаба 1 БД 1 семестр\spark-lab-1_stations_trips\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 1.524706 ms
+[info] loading settings for project spark-lab-1_stations_trips-build from idea.sbt ...
+[debug]               Load.resolveProject(spark-lab-1_stations_trips-build) took 7.78389ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id spark-lab-1_stations_trips-build, base: D:\PYTHON\Magistracy\1 семестр\Лабы по BD\Лаба 1 БД 1 семестр\spark-lab-1_stations_trips\project, plugins: List(<none>))) took 9.856067ms
+[debug] [Loading] Done in D:\PYTHON\Magistracy\1 семестр\Лабы по BD\Лаба 1 БД 1 семестр\spark-lab-1_stations_trips\project, returning: (spark-lab-1_stations_trips-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 3584.099696ms
+[debug]           Load.loadUnit: cleanEvalClasses took 5.358601ms
+[debug]         Load.loadUnit(file:/D:/PYTHON/Magistracy/1%20семестр/Лабы%20по%20BD/Лаба%201%20БД%201%20семестр/spark-lab-1_stations_trips/project/, ...) took 3618.220847ms
+[debug]       Load.apply: load took 3620.053765ms
+[debug]       Load.apply: resolveProjects took 0.125722ms
+[debug]       Load.apply: finalTransforms took 47.3512ms
+[debug]       Load.apply: config.delegates took 0.56094ms
+[debug]       Load.apply: Def.make(settings)... took 105.521912ms
+[debug]       Load.apply: structureIndex took 34.531995ms
+[debug]       Load.apply: mkStreams took 0.002566ms
+[info] loading project definition from D:\PYTHON\Magistracy\1 семестр\Лабы по BD\Лаба 1 БД 1 семестр\spark-lab-1_stations_trips\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 10414.54109ms
+[debug]     Load.loadUnit: defsScala took 0.002566ms
+[debug] [Loading] Scanning directory D:\PYTHON\Magistracy\1 семестр\Лабы по BD\Лаба 1 БД 1 семестр\spark-lab-1_stations_trips
+[debug]       Load.loadUnit: mkEval took 0.300194ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in D:\PYTHON\Magistracy\1 семестр\Лабы по BD\Лаба 1 БД 1 семестр\spark-lab-1_stations_trips, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin))), Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 1.483974 ms
+[info] loading settings for project spark-lab-1_stations_trips from build.sbt ...
+[debug]         Load.resolveProject(spark-lab-1_stations_trips) took 33.583303ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id spark-lab-1_stations_trips, base: D:\PYTHON\Magistracy\1 семестр\Лабы по BD\Лаба 1 БД 1 семестр\spark-lab-1_stations_trips, plugins: List(<none>))) took 36.236305ms
+[debug] [Loading] Done in D:\PYTHON\Magistracy\1 семестр\Лабы по BD\Лаба 1 БД 1 семестр\spark-lab-1_stations_trips, returning: (spark-lab-1_stations_trips)
+[debug]     Load.loadUnit: loadedProjectsRaw took 1304.968155ms
+[debug]     Load.loadUnit: cleanEvalClasses took 10.548824ms
+[debug]   Load.loadUnit(file:/D:/PYTHON/Magistracy/1%20семестр/Лабы%20по%20BD/Лаба%201%20БД%201%20семестр/spark-lab-1_stations_trips/, ...) took 11730.656534ms
+[debug] Load.apply: load took 11760.577528ms
+[debug] Load.apply: resolveProjects took 0.139193ms
+[debug] Load.apply: finalTransforms took 45.520526ms
+[debug] Load.apply: config.delegates took 0.308212ms
+[debug] Load.apply: Def.make(settings)... took 79.878049ms
+[debug] Load.apply: structureIndex took 23.531597ms
+[debug] Load.apply: mkStreams took 0.002245ms
+[info] set current project to spark-lab-1_stations_trips (in build file:/D:/PYTHON/Magistracy/1%20семестр/Лабы%20по%20BD/Лаба%201%20БД%201%20семестр/spark-lab-1_stations_trips/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 50935 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 50935, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to spark-lab-1_stations_trips (in build file:/D:/PYTHON/Magistracy/1%20семестр/Лабы%20по%20BD/Лаба%201%20БД%201%20семестр/spark-lab-1_stations_trips/)
+[debug] > Exec(idea-shell, None, None)

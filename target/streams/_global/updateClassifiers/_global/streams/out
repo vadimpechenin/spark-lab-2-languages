@@ -1,0 +1,4 @@
+[debug] not up to date. inChanged = true, force = false
+[debug] Updating ProjectRef(uri("file:/D:/PYTHON/Magistracy/1%20семестр/Лабы%20по%20BD/Лаба%201%20БД%201%20семестр/spark-lab-2-languages/"), "spark-lab-2-languages")...
+[debug] Done updating ProjectRef(uri("file:/D:/PYTHON/Magistracy/1%20семестр/Лабы%20по%20BD/Лаба%201%20БД%201%20семестр/spark-lab-2-languages/"), "spark-lab-2-languages")
+[warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
