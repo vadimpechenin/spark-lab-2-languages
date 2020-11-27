@@ -33,7 +33,7 @@ object Main{
     val numberOfTopLanguages = 10
 
     // Получение тестовой выборки
-    val postsData = sc.textFile(postsDataPath)//.mapPartitions(_.take(100))
+    val postsData = sc.textFile(postsDataPath)//.mapPartitions(_.take(1000))
     // Количество записей в данных
     val numberOfPosts = postsData.count
     // Добавление индекса и фильтрация строк без индекса в отдельную переменную
@@ -77,6 +77,7 @@ object Main{
     //yearTagsLangString.take(2).foreach(println)
     // Фильтр чтобы оставить только языки, находящиеся в файле languagesData.
     val yearLanguageName = yearTagsLangString.filter { case (year, tag) => languagesDataToLowerCase.contains(tag) }
+    yearLanguageName.cache() // кэширование данных
     //yearLanguageName.take(2).foreach(println)
 
     // Индексация записей в RDD по годам
